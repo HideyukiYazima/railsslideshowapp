@@ -1,0 +1,5 @@
+<%= form_with(model: @user, local: true) do |form| %>
+  <%= form.label :avatar %>
+  <%= form.file_field :avatar %>
+  <%= form.submit %>
+<% end %>
